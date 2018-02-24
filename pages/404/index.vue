@@ -80,12 +80,17 @@ export default {
         title: "Wear & Share - What is this place?",
         meta: [
             { hid: 'description', name: 'description', content: 'Looks like you got lost in our magical wardrobe. Just follow the link below to get back home.' },
-        ]
-    },
-    mounted: function() {
-    $(".loading-inner").fadeOut(function() {
-        $(".loading-overlay").fadeOut("slow");
-    });
+        ],
+        script: [
+            { innerHTML: 
+            `
+            $(".loading-inner").fadeOut(function() {
+                $(".loading-overlay").fadeOut("slow");
+            });
+            `
+            , body: true }
+        ],
+        __dangerouslyDisableSanitizers: ['script']
     }
 }
 </script>

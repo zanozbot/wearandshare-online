@@ -31,9 +31,11 @@ export default {
     ]
   },
   mounted: function() {
-    $(".loading-inner").fadeOut(function() {
+    setTimeout(() => {
+      $(".loading-inner").fadeOut(function() {
         $(".loading-overlay").fadeOut("slow");
-    });
+      });
+    }, 2000);
   }
 }
 </script>
