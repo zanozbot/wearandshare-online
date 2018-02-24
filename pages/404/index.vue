@@ -82,7 +82,6 @@ export default {
             { hid: 'description', name: 'description', content: 'Looks like you got lost in our magical wardrobe. Just follow the link below to get back home.' },
         ]
     },
-    props: ['error'],
     mounted: function() {
     $(".loading-inner").fadeOut(function() {
         $(".loading-overlay").fadeOut("slow");
