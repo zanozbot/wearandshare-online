@@ -35,7 +35,7 @@ export default {
       $(".loading-inner").fadeOut(function() {
         $(".loading-overlay").fadeOut("slow");
       });
-    }, 2000);
+    }, 1000);
   }
 }
 </script>
