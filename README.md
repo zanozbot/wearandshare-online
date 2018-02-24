@@ -1,4 +1,4 @@
-# wearandshare-online
+# Wear & Share - Not wearing? Start Sharing!
 
 > The only app that combines your friends&#39; wardrobes with yours
 
