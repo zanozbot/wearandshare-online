@@ -33,62 +33,6 @@ $(document).ready(function() {
 
     });
 
-    /* ========================================================================= */
-    /*  Phone Carousel Header
-    /* ========================================================================= */
-
-    // Phone Carousel Header
-    var $carousel =
-    $('.inner').owlCarousel({
-        loop: true,
-        autoplay: true,
-        dots: true,
-        nav: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            400: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    });
-    
-    /* ========================================================================= */
-    /*  Change Photo On Mobile Services
-    /* ========================================================================= */
-
-    $('.features-slider').owlCarousel({
-        responsive: {
-            0: {
-                items: 1
-            },
-            400: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        },
-        loop: true,
-        margin: 0,
-        autoplay: true,
-        dots: false,
-        nav: false,
-        mouseDrag: false,
-        touchDrag: false,
-        autoplayTimeout: 5000
-    });
-
     /* Change Button */
 
     var b = $(".features-slider"),
