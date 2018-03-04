@@ -26,7 +26,25 @@ export default {
     ],
     script: [
       { src: '/js/utils.js', body: true },
+      { inlineHTML:
+      `
+      { 
+        "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "name" : "Wear & Share",
+        "url" : "https://wearandshare.online",
+        "logo": "https://wearandshare.online/img/icons/profile.jpg",
+        "sameAs" : [ 
+            "https://www.facebook.com/wearandshare.online",
+            "https://twitter.com/wear_and_share",
+            "https://www.instagram.com/wearandshare.online/"
+            ] 
+        }
+      `
+      , type: 'application/ld+json'
+      }
     ],
+    __dangerouslyDisableSanitizers: ['script'],
     link: [
     ]
   },
