@@ -17,9 +17,9 @@ export default {
       { hid: 'og:url', name: 'og:url', content: 'https://wearandshare.online' },
       // Social media (Twitter)
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'twitter:tittle', name: 'twitter:tittle', content: 'Wear & Share - Not wearing? Start sharing!' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'Wear & Share - Not wearing? Start sharing!' },
       { hid: 'twitter:description', name: 'twitter:description', content: 'Share your wardrobe with friends and discover new outfits combining once unavailable wearables and more, using the only app that combines wardrobes of friends.' },
-      { hid: 'twitter:url', name: 'twitter:url', content: 'https://wearandshare.online' },
+      { hid: 'twitter:site', name: 'twitter:site', content: 'https://wearandshare.online' },
       { hid: 'twitter:image', name: 'twitter:image', content: 'https://wearandshare.online/img/bg/OGimage.png' },
       // Site verification
       { hid: 'google-site-verification', name: 'google-site-verification', content: 'To5EEf2kJCqtjG6wC7hnQ8Hd1QqFXjPL-MiZ9XUS8ns' }
