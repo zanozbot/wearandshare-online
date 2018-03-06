@@ -712,10 +712,6 @@ body {
     vertical-align: middle;
 }
 
-.header-content h4 {
-    margin-top: 2em;
-}
-
 /* Header Word */
 .word {
 	display: flex;
