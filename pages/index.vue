@@ -25,9 +25,7 @@ export default {
       { hid: 'google-site-verification', name: 'google-site-verification', content: 'To5EEf2kJCqtjG6wC7hnQ8Hd1QqFXjPL-MiZ9XUS8ns' }
     ],
     script: [
-      { src: '/js/utils.js', body: true },
-      { src: '/js/public-profile.js', type: 'application/ld+json'
-      }
+      { src: '/js/utils.js', body: true }
     ],
     link: [
     ]
