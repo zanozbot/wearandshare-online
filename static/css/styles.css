@@ -2,9 +2,12 @@
     1. Basic Setup
 ==================================================================*/
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    font-weight: 300;
 }
 
 /* + Sections Title
@@ -17,7 +20,7 @@ body {
 .section-title h2 {
     text-transform: uppercase;
     margin: 0;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
@@ -379,7 +382,7 @@ body {
 }
 
 .pd-carousel .header-content .bttn {
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 
 .pd-carousel .header-content .bttn a:first-child {
@@ -583,7 +586,7 @@ body {
 .nav-sec .navbar-nav > li > a {
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     color: rgba(255,255,255,.7);
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
@@ -591,7 +594,6 @@ body {
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-sec .navbar-nav > li > a:hover {
@@ -728,28 +730,23 @@ body {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.word--magneto {
-	font-size: 60px;
-	font-weight: 900;
-	text-transform: uppercase;
-	color: #fff;
-	line-height: 0.8;
-	margin: 0 0 1em 0;
-}
-
 .header-content h1 {
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 700;
     color: #fff;
     margin-bottom: 15px;
     text-transform: uppercase;
+}
+
+.header-content h1 div {
+    font-weight: 400;
 }
 
 .header-content h4 {
     color: #fff;
     font-size: 23px;
     line-height: 35px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .header-content .bttn-head {
@@ -887,7 +884,7 @@ body {
 .about .mobile-features .tab-content>.tab-pane h4 {
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 600
+    font-weight: 500
 }
 
 .about .mobile-features .tab-content>.tab-pane h4 span {
@@ -929,7 +926,7 @@ body {
     background: -moz-linear-gradient(-45deg, #f16a96, #f1836a);
     background: -o-linear-gradient(-45deg, #f16a96, #f1836a);
     background: linear-gradient(-45deg, #f16a96, #f1836a);
-    color: #fff;
+    color: #222;
     padding: 100px 0;
     position: relative;
 }
@@ -984,13 +981,13 @@ body {
 
 .features .single-feat .icon-place i {
     font-size: 45px;
-    color: #fff
 }
 
 .features .single-feat .feat-text h4 {
     margin: 0;
     margin-bottom: 10px;
-    font-weight: 600
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .features .single-feat .feat-text p {
@@ -1182,8 +1179,10 @@ body {
 }
 
 .wearable {
+    color: white;
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
+    background: #222222
 }
 
 .wearable p {
@@ -1193,13 +1192,7 @@ body {
 
 .wearable p span {
     color: rgb(241, 105, 150);
-}
-
-/* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .wearable {
-        padding-bottom: 100px;
-    }    
+    text-transform: uppercase;
 }
 
 /* Mobile */
@@ -1215,10 +1208,66 @@ body {
 }
 
 /*=================================================================
+    Connect
+==================================================================*/
+
+.connect {
+    background: #222;
+    color: white;
+    padding: 100px 0;
+}
+
+.connect .social-gradient {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 2rem;
+}
+
+.connect p {
+    font-size: 18px;
+}
+
+.connect .social {
+    margin-top: 40px;
+}
+
+/*=================================================================
+    Subscribe
+==================================================================*/
+
+.subscribe .overlay {
+    padding: 100px 0;
+}
+
+.subscribe .row {
+    margin: 0;
+}
+
+.subscribe p {
+    font-size: 18px;
+    color: white;
+}
+
+.subscribe h2 {
+    color: white;
+}
+
+.subscribe .title-underline:before,
+.subscribe .title-underline:after {
+    background: white;
+}
+
+.subscribe .title-underline i {
+    background: none;
+    -webkit-text-fill-color: white;
+}
+
+/*=================================================================
     8. Video App
 ==================================================================*/
 
-.video-app {
+.video-app, .subscribe {
     background: url(/img/bg/wearables.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1257,18 +1306,18 @@ body {
 }
 
 .video-app .play-btn:hover {
-    -webkit-box-shadow: 0 0 0 3px #fff;
-    -moz-box-shadow: 0 0 0 3px #fff;
-    -o-box-shadow: 0 0 0 3px #fff;
-    box-shadow: 0 0 0 3px #fff
+    -webkit-box-shadow: 0 0 0 3px white;
+    -moz-box-shadow: 0 0 0 3px white;
+    -o-box-shadow: 0 0 0 3px white;
+    box-shadow: 0 0 0 3px white;
 }
 
 .video-app .section-title h2 {
-    color: #fff
+    color: white
 }
 
 .video-app p {
-    color: #fff;
+    color: white;
     line-height: 28px;
     font-size: 18px;
     width: 550px;
@@ -1393,12 +1442,13 @@ body {
     color: inherit;
     display: block;
     position: relative;
-    text-decoration: none
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .faqs .panel-title a.collapsed:after {
     font-family: wearandshare;
-    content: "\e910";
+    content: "\e911";
     background: -webkit-linear-gradient(-45deg, #f16a96, #f1836a);
     background: -moz-linear-gradient(-45deg, #f16a96, #f1836a);
     background: -o-linear-gradient(-45deg, #f16a96, #f1836a);
@@ -1415,7 +1465,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: wearandshare;
-    content: "\e911";
+    content: "\e910";
     font-size: 12px;
     font-weight: normal;
     height: 22px;
@@ -1453,6 +1503,8 @@ body {
 
 .errors p {
     margin: 0 auto;
+    font-size: 16px;
+    color: #222;
 }
 
 .errors p span {
@@ -1472,6 +1524,7 @@ body {
 /* ================ Subscribe Box ================ */
 
 .subscribe-box .subscribe-text {
+    color: white;
     margin: 0 auto 40px;
     max-width: 710px;
     text-align: center;
@@ -1482,20 +1535,17 @@ body {
     color: #ffffff;
     font-size: 18px;
     margin: 0 0 15px;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
 .subscribe-box .subscribe-form {
     margin: auto;
     max-width: 500px;
-    position: relative;
-    width: 100%;
-}
-
-.subscribe-box .subscribe-form {
     height: 48px;
     position: relative;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .subscribe-box .subscribe-form.name-email input {
@@ -1571,7 +1621,6 @@ body {
 
 .logo-footer {
     text-align: center;
-    margin-top: 50px;
 }
 
 .logo-footer a img {
@@ -1584,19 +1633,19 @@ body {
 /* ================ Social Links ================ */
 
 .footer .social-footer {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
 /* ================ Copyright ================ */
 
 .footer .copyright {
-    margin-top: 30px
+    margin-top: 20px
 }
 
 .footer .copyright p {
     color: #fff;
-    font-weight: 600;
+    font-weight: 300;
     margin: 0
 }
 
@@ -1669,7 +1718,7 @@ body {
 
 .text-not-found h4 {
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 500;
     color: #fff;
     text-transform: uppercase;
     position: relative;
@@ -1683,7 +1732,7 @@ body {
 }
 
 .text-not-found h1 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 13em;
     color: #fff;
     margin-bottom: 20px;
@@ -1797,16 +1846,6 @@ body {
         transform-origin: 50px 52px;
     }
 }
-
-.separator {
-    height: 3px;
-    background: -webkit-linear-gradient(45deg, rgb(241, 131, 106), rgb(241, 105, 150));
-    background: -moz-linear-gradient(45deg, rgb(241, 131, 106), rgb(241, 105, 150));
-    background: -o-linear-gradient(45deg, rgb(241, 131, 106), rgb(241, 105, 150));
-    background: linear-gradient(45deg, rgb(241, 131, 106), rgb(241, 105, 150));
-}
-
-
 
 
 /*=================================================================
@@ -1955,6 +1994,10 @@ body {
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    .navbar-brand {
+        line-height: 15px;
+    }
+
     #home.cloud:after, .features:after, .video-app:after {
         margin-bottom: -2px;
     }
@@ -2097,6 +2140,11 @@ body {
     .pd-carousel .header-content .bttn a:first-child {
         margin: 0;
     }
+
+    .pd-carousel .header-content .bttn {
+        margin-top: 1rem;
+    }
+
     /* 404 Page */
     .text-not-found h1 {
         font-size: 8em;
