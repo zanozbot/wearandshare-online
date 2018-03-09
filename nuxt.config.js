@@ -16,10 +16,7 @@ module.exports = {
       { hid: 'theme-color', name: 'theme-color', content: '#f1836a' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/css/wearandshare.css' },
-      { rel: 'stylesheet', href: '/css/plugins.css' },
-      { rel: 'stylesheet', href: '/css/styles.css' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
       { innerHTML: 
@@ -46,6 +43,9 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/css/plugins.css',
+    '@/assets/css/wearandshare.css',
+    '@/assets/css/styles.css'
   ],
 
   /*
