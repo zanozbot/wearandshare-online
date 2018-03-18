@@ -20,7 +20,7 @@ body {
 .section-title h2 {
     text-transform: uppercase;
     margin: 0;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -926,8 +926,8 @@ body {
     background: -moz-linear-gradient(-45deg, #f16a96, #f1836a);
     background: -o-linear-gradient(-45deg, #f16a96, #f1836a);
     background: linear-gradient(-45deg, #f16a96, #f1836a);
-    color: #222;
     padding: 100px 0;
+    color: white;
     position: relative;
 }
 
@@ -1168,6 +1168,10 @@ body {
     font-size: 5rem;
 }
 
+.wearable p {
+    font-weight: 400;
+}
+
 .ql {
     text-align: left;
     color: rgb(241, 131, 106);
@@ -1179,10 +1183,10 @@ body {
 }
 
 .wearable {
-    color: white;
-    padding-top: 60px;
+    color: #222;
+    padding-top: 80px;
     padding-bottom: 100px;
-    background: #222222
+    background: #f4f4f4
 }
 
 .wearable p {
@@ -1212,25 +1216,21 @@ body {
 ==================================================================*/
 
 .connect {
-    background: #222;
     color: white;
-    padding: 100px 0;
 }
 
-.connect .social-gradient {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 2rem;
+.connect h2 {
+    margin: 0;
+}
+
+.connect .section-title {
+    margin-bottom: 2rem;
 }
 
 .connect p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
-.connect .social {
-    margin-top: 40px;
-}
 
 /*=================================================================
     Subscribe
@@ -1254,11 +1254,14 @@ body {
 }
 
 .subscribe .title-underline:before,
-.subscribe .title-underline:after {
+.subscribe .title-underline:after,
+.video-app .title-underline:before,
+.video-app .title-underline:after {
     background: white;
 }
 
-.subscribe .title-underline i {
+.subscribe .title-underline i,
+.video-app .title-underline i {
     background: none;
     -webkit-text-fill-color: white;
 }
@@ -1278,50 +1281,28 @@ body {
     
 }
 
+.video-app {
+    color: white;
+}
+
 .video-app .overlay {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.video-app .title-underline:before,
-.video-app .title-underline:after {
-    background: white;
-}
-
-.video-app .title-underline i {
-    background: none;
-    -webkit-text-fill-color: white;
-}
-
-.video-app .play-btn {
-    padding: 2px;
-    border-radius: 100%;
-    margin-bottom: 50px;
-    outline: none;
-    display: inline-block;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease
-}
-
-.video-app .play-btn:hover {
-    -webkit-box-shadow: 0 0 0 3px white;
-    -moz-box-shadow: 0 0 0 3px white;
-    -o-box-shadow: 0 0 0 3px white;
-    box-shadow: 0 0 0 3px white;
-}
-
-.video-app .section-title h2 {
-    color: white
+.video-app h2 {
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .video-app p {
-    color: white;
-    line-height: 28px;
-    font-size: 18px;
-    width: 550px;
-    margin: auto;
+    font-size: 20px;
+}
+
+.video-app .embed-responsive {
+    border-radius: 1rem;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, .08);
+    margin-top: 5rem;
 }
 
 /*=================================================================
@@ -1634,6 +1615,7 @@ body {
 
 .footer .social-footer {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
