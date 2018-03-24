@@ -27,14 +27,11 @@ $(document).ready(function() {
 
     // Navbar ScollSpy
     $("body").scrollspy({
-
         target: ".navbar-collapse",
         offset: 95
-
     });
 
     /* Change Button */
-
     var b = $(".features-slider"),
         k = $(".nav-pills li");
     b.on('changed.owl.carousel', function(event) {
@@ -84,34 +81,6 @@ $(document).ready(function() {
     }
 
     /* ========================================================================= */
-    /*  screenshot Carousel
-    /* ========================================================================= */
-
-    $(".screenshot").owlCarousel({
-        responsive: {
-            0: {
-                items: 1
-            },
-            400: {
-                items: 2
-            },
-            600: {
-                items: 2
-            },
-            991: {
-                items: 3
-            }
-        },
-        loop: true,
-        center: true,
-        dots: false,
-        nav: true,
-        navText: ["<i class='icon-arrow-thin-left'></i>", "<i class='icon-arrow-thin-right'></i>"],
-        autoplay: true
-
-    });
-
-    /* ========================================================================= */
     /*  WOW Plugin
     /* ========================================================================= */
 
@@ -123,20 +92,6 @@ $(document).ready(function() {
 
     // End
 });
-
-/* ========================================================================= */
-/*  Preloader
-/* ========================================================================= */
-
-// $(window).on("load", function() {
-//     $(".loading-inner").fadeOut(function() {
-//         $(".loading-overlay").fadeOut("slow");
-//     });
-// });
-
-/* ========================================================================= */
-/*  Back To Top
-/* ========================================================================= */
 
 $(window).on('scroll', function() {
     if ($(this).scrollTop() >= 800) {

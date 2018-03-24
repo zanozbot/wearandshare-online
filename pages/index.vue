@@ -81,7 +81,7 @@ export default {
           },
           loop: true,
           margin: 0,
-          autoplay: true,
+          autoplay: false,
           dots: false,
           nav: false,
           mouseDrag: false,
