@@ -784,6 +784,11 @@ body {
     position: relative;
 }
 
+.features a:hover, .features a:focus  {
+    text-decoration: none;
+    outline: none;
+}
+
 .features:after, .features02::after {
     content: '';
     display: block;
@@ -1532,7 +1537,7 @@ body {
     }
     .features .feat-center img {
         height: auto;
-        position: static
+        position: static;
     }
     .faqs .faqs-img img {
         margin-bottom: 50px
@@ -1734,6 +1739,9 @@ body {
 
 /* Mobile and tablet */
 @media only screen and (max-width: 991px) {
+    .features .feat-center img.img-responsive {
+        display: inline-block;
+    }
     .features02 .content {
         flex-direction: column;
         text-align: center;
