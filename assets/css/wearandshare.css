@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'wearandshare';
-  src:  url('/fonts/wearandshare.eot?oxu4xy');
-  src:  url('/fonts/wearandshare.eot?oxu4xy#iefix') format('embedded-opentype'),
-    url('/fonts/wearandshare.ttf?oxu4xy') format('truetype'),
-    url('/fonts/wearandshare.woff?oxu4xy') format('woff'),
-    url('/fonts/wearandshare.svg?oxu4xy#wearandshare') format('svg');
+  src:  url('/fonts/wearandshare.eot?bbnnwe');
+  src:  url('/fonts/wearandshare.eot?bbnnwe#iefix') format('embedded-opentype'),
+    url('/fonts/wearandshare.ttf?bbnnwe') format('truetype'),
+    url('/fonts/wearandshare.woff?bbnnwe') format('woff'),
+    url('/fonts/wearandshare.svg?bbnnwe#wearandshare') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,23 +23,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e900";
+.icon-user:before {
+  content: "\f007";
 }
-.icon-chat:before {
-  content: "\e04a";
+.icon-hour:before {
+  content: "\f017";
 }
-.icon-request:before {
-  content: "\e066";
+.icon-thick-arrow-left:before {
+  content: "\f053";
 }
-.icon-time:before {
-  content: "\e081";
+.icon-thick-arrow-right:before {
+  content: "\f054";
 }
-.icon-heart-outline:before {
-  content: "\e08a";
-}
-.icon-location:before {
-  content: "\e096";
+.icon-google-plus:before {
+  content: "\f0d5";
 }
 .icon-arrow-thin-left:before {
   content: "\e605";
@@ -49,6 +46,9 @@
 }
 .icon-arrow-thin-up:before {
   content: "\e607";
+}
+.icon-instagram:before {
+  content: "\e900";
 }
 .icon-groups:before {
   content: "\e901";

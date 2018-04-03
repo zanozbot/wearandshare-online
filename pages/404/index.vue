@@ -19,11 +19,8 @@
                     <!-- / navbar-header -->
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/"><span>Home</span></a></li>
-                            <li><nuxt-link to="/#about">Features</nuxt-link></li>
-                            <li><nuxt-link to="/#screenshots">Features</nuxt-link></li>
-                            <li><nuxt-link to="/#video">Video</nuxt-link></li>
-                            <li><nuxt-link to="/#faqs">FAQs</nuxt-link></li>
+                            <li><nuxt-link to="/">Home</nuxt-link></li>
+                            <li><nuxt-link to="/blog">Blog</nuxt-link></li>
                         </ul>
                     </div>
                     <!-- end nav-collapse -->

@@ -14,72 +14,6 @@ $(document).ready(function() {
         }
     });
 
-    // Navbar Smoothscroll js
-    $(function() {
-        $('.sec-nav a, #home a, .navbar-brand').bind('click', function(event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 70
-            }, 1000);
-            event.preventDefault();
-        });
-    });
-
-    // Navbar ScollSpy
-    $("body").scrollspy({
-        target: ".navbar-collapse",
-        offset: 95
-    });
-
-    /* Change Button */
-    var b = $(".features-slider"),
-        k = $(".nav-pills li");
-    b.on('changed.owl.carousel', function(event) {
-        var n = (event.item.index + 1) - event.relatedTarget._clones.length / 2;
-        var o = event.item.count;
-        if (n > o || n == 0) {
-            n = o - (n % o);
-        }
-
-        (n > o || 0 == n) && (n = o - n % o), n--;
-        var t = $(".nav-pills li:nth(" + n + ")");
-        a(t)
-
-    }), k.on("click", function() {
-        var e = $(this).data("owl-item");
-        b.trigger("to.owl.carousel", e), a($(this));
-    });
-
-    function a(e) {
-        k.removeClass("active-icon");
-        e.addClass("active-icon");
-    }
-
-    /* Change Text */
-    var b = $(".features-slider"),
-        i = $(".tab-pane");
-    b.on('changed.owl.carousel', function(event) {
-        var h = (event.item.index + 1) - event.relatedTarget._clones.length / 2;
-        var v = event.item.count;
-        if (h > v || h == 0) {
-            h = v - (h % v);
-        }
-
-        (h > v || 0 == h) && (h = v - h % v), h--;
-        var w = $(".tab-pane:nth(" + h + ")");
-        c(w)
-
-    }), $(".nav-pills li").on("click", function() {
-        return false;
-        var y = $(this).data("owl-item");
-        b.trigger("to.owl.carousel", y), c($(".tab-pane"));
-    });
-
-    function c(y) {
-        i.removeClass("active");
-        y.addClass("active");
-    }
-
     /* ========================================================================= */
     /*  WOW Plugin
     /* ========================================================================= */
@@ -90,7 +24,6 @@ $(document).ready(function() {
     });
     wow.init();
 
-    // End
 });
 
 $(window).on('scroll', function() {
@@ -101,13 +34,11 @@ $(window).on('scroll', function() {
     }
 });
 
-$(window).on("load", function() {
-    $("#scroll-top").on('click', function() {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 1500);
-    });
-});
+function scrollToTop() {
+    $("html, body").animate({
+        scrollTop: 0
+    }, 1500);
+}
 
 const apiRoot = 'https://online.us17.list-manage.com/subscribe/post-json?u=a4c8a5ce5eb2a5a48df0a4999&amp;id=f028e09028&EMAIL=';
 

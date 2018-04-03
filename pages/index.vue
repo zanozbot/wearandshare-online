@@ -59,36 +59,15 @@ export default {
               }
           }
       });
-      
-      /* ========================================================================= */
-      /*  Change Photo On Mobile Services
-      /* ========================================================================= */
 
-      $('.features-slider').owlCarousel({
-          responsive: {
-              0: {
-                  items: 1
-              },
-              400: {
-                  items: 1
-              },
-              600: {
-                  items: 1
-              },
-              1000: {
-                  items: 1
-              }
-          },
-          loop: true,
-          margin: 0,
-          autoplay: false,
-          dots: false,
-          nav: false,
-          mouseDrag: false,
-          touchDrag: false,
-          autoplayTimeout: 5000
-      });
     });
+  },
+  methods: {
+      scrollTo: function(to) {
+        $('html, body').stop().animate({
+            scrollTop: $(to).offset().top - 70
+        }, 1000);
+      }
   }
 }
 </script>

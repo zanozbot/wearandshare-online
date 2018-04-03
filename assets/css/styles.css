@@ -337,6 +337,21 @@ body {
 /* + Headers Style
 ===================================== */
 
+.navbar-right li > a > span {
+    padding: 1rem 2rem;
+    background: white;
+    color: #f16a96;
+    -webkit-box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
+    -moz-box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
+    -o-box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
+    box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
+    border-radius: 4px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
 /* cloud */
 #home.cloud:after {
     content: '';
@@ -1767,5 +1782,277 @@ body {
     .feat-text {
         text-align: center !important;
     }
+}
 
+
+/*=================================================================
+    Blog Page
+==================================================================*/
+
+.home-blog {
+    background: url(/img/bg/wearables.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative
+}
+
+.home-blog .blog-inner {
+    display: table;
+    height: calc(50vh - 0px);
+    width: 100%
+}
+
+.home-blog .blog-content {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 1;
+    padding-top: 40px;
+}
+
+.home-blog .blog-content h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.home-blog .blog-content .bread-links .breadcrumb {
+    margin: 0;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.home-blog .blog-content .bread-links .breadcrumb>li+li:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    margin: 0 15px;
+    color: #fff;
+}
+
+.home-blog .blog-content .bread-links .breadcrumb li {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home-blog .blog-content .bread-links .breadcrumb a {
+    color: #fff;
+    text-decoration: none
+}
+
+.home-blog .blog-content .bread-links .breadcrumb>.active {
+    color: rgba(255,255,255,.7)
+}
+
+.blog-page {
+    padding: 100px 0
+}
+
+
+/*Posts Content*/
+
+.one-post {
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    -o-box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 35px rgba(0, 0, 0, .1);
+}
+
+.one-post .post-img img {
+    width: 100%
+}
+
+.one-post .post-text {
+    padding: 30px;
+}
+
+.one-post .post-text .title-date {
+    float: left;
+}
+
+.one-post .post-text .title-date {
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    background: -webkit-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -moz-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -o-linear-gradient(-45deg, #f16996, #f1836a);
+    background: linear-gradient(-45deg, #f16996, #f1836a);
+    margin-right: 20px;
+}
+
+.one-post .post-text .title-date h3 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.one-post .post-text .title-date span {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+}
+
+.one-post .post-text .title-text {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.one-post .post-text .title-text .title-post {
+    text-decoration: none;
+    color: #ca4966;
+    font-size: 18px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.one-post .post-text .title-text .title-post:hover {
+    color: #333;
+}
+
+.one-post .post-text .title-text .post-details {
+    margin-top: 15px;
+}
+
+.one-post .post-text .title-text .post-details a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    margin-right: 16px;
+    text-transform: uppercase;
+}
+
+.one-post .post-text .title-text .post-details a i {
+    background: -webkit-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -moz-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -o-linear-gradient(-45deg, #f16996, #f1836a);
+    background: linear-gradient(-45deg, #f16996, #f1836a);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-right: 5px;
+}
+
+.one-post .post-text .post-concept p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: .4px;
+}
+
+.one-post .post-text .post-butt {
+    margin-top: 20px
+}
+
+/*=================================================================
+    33. Single Post Page [Style 1]
+==================================================================*/
+
+blockquote {
+    margin: 0;
+    font-size: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    border: none
+}
+
+blockquote:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    left: 0;
+    background: -webkit-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -moz-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -o-linear-gradient(-45deg, #f16996, #f1836a);
+    background: linear-gradient(-45deg, #f16996, #f1836a);
+}
+
+.post-det {
+    margin-top: 30px
+}
+
+.post-det .tags-post p {
+    margin: 0;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+.post-det .tags-post p i {
+    background: -webkit-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -moz-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -o-linear-gradient(-45deg, #f16996, #f1836a);
+    background: linear-gradient(-45deg, #f16996, #f1836a);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-right: 10px
+}
+
+.post-det .tags-post p a {
+    text-decoration: none;
+    color: #ca4966;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.post-det .tags-post p a:hover {
+    color: #333
+}
+
+.post-det .tags-post {
+    text-align: left
+}
+
+.post-det .share-post {
+    text-align: right;
+    font-size: 1.6rem;
+}
+
+.post-det .share-post span {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.post-det .share-post a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.post-det .share-post a:last-child {
+    margin-right: 0
+}
+
+.post-det .share-post a i {
+    background: -webkit-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -moz-linear-gradient(-45deg, #f16996, #f1836a);
+    background: -o-linear-gradient(-45deg, #f16996, #f1836a);
+    background: linear-gradient(-45deg, #f16996, #f1836a);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.post-journy .next-butt {
+    text-align: right
+}
+
+.post-journy .bttn-gradient i {
+    margin: 0;
 }
