@@ -1833,9 +1833,10 @@ body {
 }
 
 .home-blog .blog-content .bread-links .breadcrumb>li+li:before {
-    content: "\f105";
-    font-family: FontAwesome;
+    content: "\f054";
+    font-family: wearandshare;
     margin: 0 15px;
+    font-size: 1rem;
     color: #fff;
 }
 

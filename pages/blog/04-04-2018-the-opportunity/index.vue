@@ -20,18 +20,18 @@ export default {
   head: {
     title: "Wear & Share - The Opportunity",
     meta: [
-      { hid: 'description', name: 'description', content: 'Learn how the sharing culture influenced on the creation of Wear & Share, what problems we encountered with our users and how we intend to solve them.' },
+      { hid: 'description', name: 'description', content: 'Learn how the sharing culture influenced the Wear & Share development, what opportunities it brings to the table and how we intend to combine them with people’s desire to be fashionable at all times.' },
       // Social media (Facebook and other)
       { hid: 'og:image', name: 'og:image', content: 'https://wearandshare.online/img/blog/04-04-2018-the-opportunity/OGimage.jpg' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Wear & Share' },
       { hid: 'og:type', name: 'og:site_name', content: 'website' },
-      { hid: 'og:description', name: 'og:description', content: 'Learn how the sharing culture influenced on the creation of Wear & Share, what problems we encountered with our users and how we intend to solve them.' },
+      { hid: 'og:description', name: 'og:description', content: 'Learn how the sharing culture influenced the Wear & Share development, what opportunities it brings to the table and how we intend to combine them with people’s desire to be fashionable at all times.' },
       { hid: 'og:title', name: 'og:title', content: 'Wear & Share - The Opportunity' },   
       { hid: 'og:url', name: 'og:url', content: 'https://wearandshare.online/blog/04-04-2018-the-opportunity' },
       // Social media (Twitter)
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:title', name: 'twitter:title', content: 'Wear & Share - The Opportunity' },
-      { hid: 'twitter:description', name: 'twitter:description', content: 'Learn how the sharing culture influenced on the creation of Wear & Share, what problems we encountered with our users and how we intend to solve them.' },
+      { hid: 'twitter:description', name: 'twitter:description', content: 'Learn how the sharing culture influenced the Wear & Share development, what opportunities it brings to the table and how we intend to combine them with people’s desire to be fashionable at all times.' },
       { hid: 'twitter:site', name: 'twitter:site', content: 'https://wearandshare.online/blog/04-04-2018-the-opportunity' },
       { hid: 'twitter:image', name: 'twitter:image', content: 'https://wearandshare.online/img/blog/04-04-2018-the-opportunity/OGimage.jpg' }
     ],

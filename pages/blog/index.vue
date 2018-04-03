@@ -15,7 +15,7 @@ export default {
           month:    'Apr',
           fullDate: 'April 4th, 2018',
           title:    'The Wear & Share Opportunity',
-          desc:     'The sharing culture is spreading. Ideas like convenience, lower cost of living, connecting with others, etc. are the reasons more and more young people are taking a liking towards sharing.'
+          desc:     'Learn how the sharing culture influenced the Wear & Share development, what opportunities it brings to the table and how we intend to combine them with people’s desire to be fashionable at all times.'
         }
       ]
     }
