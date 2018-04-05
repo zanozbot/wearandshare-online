@@ -26,8 +26,6 @@ export default {
     ],
     script: [
       { src: '/js/utils.js', body: true }
-    ],
-    link: [
     ]
   },
   mounted: function() {

@@ -1,3 +1,123 @@
+/* FONT - wearandshare */
+@font-face {
+    font-family: 'wearandshare';
+    src:  url('/fonts/wearandshare.eot?bbnnwe');
+    src:  url('/fonts/wearandshare.eot?bbnnwe#iefix') format('embedded-opentype'),
+      url('/fonts/wearandshare.ttf?bbnnwe') format('truetype'),
+      url('/fonts/wearandshare.woff?bbnnwe') format('woff'),
+      url('/fonts/wearandshare.svg?bbnnwe#wearandshare') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'wearandshare' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-user:before {
+    content: "\f007";
+  }
+  .icon-hour:before {
+    content: "\f017";
+  }
+  .icon-thick-arrow-left:before {
+    content: "\f053";
+  }
+  .icon-thick-arrow-right:before {
+    content: "\f054";
+  }
+  .icon-google-plus:before {
+    content: "\f0d5";
+  }
+  .icon-arrow-thin-left:before {
+    content: "\e605";
+  }
+  .icon-arrow-thin-right:before {
+    content: "\e606";
+  }
+  .icon-arrow-thin-up:before {
+    content: "\e607";
+  }
+  .icon-instagram:before {
+    content: "\e900";
+  }
+  .icon-groups:before {
+    content: "\e901";
+  }
+  .icon-share:before {
+    content: "\e902";
+  }
+  .icon-logo-large:before {
+    content: "\e903";
+  }
+  .icon-logo-small:before {
+    content: "\e904";
+  }
+  .icon-envelope:before {
+    content: "\e905";
+  }
+  .icon-twitter:before {
+    content: "\e906";
+  }
+  .icon-facebook:before {
+    content: "\e907";
+  }
+  .icon-bars:before {
+    content: "\e908";
+  }
+  .icon-youtube:before {
+    content: "\e909";
+  }
+  .icon-vimeo:before {
+    content: "\e90a";
+  }
+  .icon-heart:before {
+    content: "\e90b";
+  }
+  .icon-send:before {
+    content: "\e90c";
+  }
+  .icon-arrow-thick-right:before {
+    content: "\e90d";
+  }
+  .icon-arrow-thick-left:before {
+    content: "\e90e";
+  }
+  .icon-arrow-thick-up:before {
+    content: "\e90f";
+  }
+  .icon-circle:before {
+    content: "\e910";
+  }
+  .icon-plus:before {
+    content: "\e911";
+  }
+  .icon-minus:before {
+    content: "\e912";
+  }
+  .icon-quotes-left:before {
+    content: "\e977";
+  }
+  .icon-quotes-right:before {
+    content: "\e978";
+  }
+  .icon-follow:before {
+    content: "\e9b5";
+  }
+  .icon-discover:before {
+    content: "\e9ce";
+  }
+
 /*=================================================================
     1. Basic Setup
 ==================================================================*/

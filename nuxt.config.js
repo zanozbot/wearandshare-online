@@ -8,6 +8,9 @@ module.exports = {
   */
   head: {
     title: 'Wear & Share',
+    htmlAttrs: {
+      lang: 'en-US'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
@@ -28,8 +31,7 @@ module.exports = {
         })(window,document,'script','dataLayer','GTM-WP2BFTS');
         `
       },
-      { src: '/js/plugins.js', body: true },
-      { src: '/js/modernizr-2.6.2.min.js' }
+      { src: '/js/plugins.js', body: true }
     ],
     __dangerouslyDisableSanitizers: ['script']
   },
@@ -43,9 +45,6 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    '@/assets/css/plugins.css',
-    '@/assets/css/wearandshare.css',
-    '@/assets/css/styles.css'
   ],
 
   /*
