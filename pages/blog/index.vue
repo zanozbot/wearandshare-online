@@ -11,9 +11,9 @@ export default {
           link:     '/blog/04-04-2018-the-opportunity',
           img:      '/img/blog/04-04-2018-the-opportunity/feature.jpg',
           author:   'Dik M. Murovec',
-          day:      '04',
+          day:      '06',
           month:    'Apr',
-          fullDate: 'April 4th, 2018',
+          fullDate: 'April 6th, 2018',
           title:    'The Wear & Share Opportunity',
           desc:     'Learn how the sharing culture influenced the Wear & Share development, what opportunities it brings to the table and how we intend to combine them with people’s desire to be fashionable at all times.'
         }
