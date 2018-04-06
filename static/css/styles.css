@@ -1022,7 +1022,7 @@ body {
 }
 
 .wearable p span {
-    color: rgb(241, 105, 150);
+    /* color: rgb(241, 105, 150); */
     text-transform: uppercase;
 }
 
@@ -1924,7 +1924,7 @@ body {
 
 .home-blog .blog-inner {
     display: table;
-    height: calc(50vh - 0px);
+    height: 35vh;
     width: 100%
 }
 
