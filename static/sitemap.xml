@@ -12,13 +12,13 @@
     </url>
 
     <url>
-      <loc>https://wearandshare.online/blog</loc>
+      <loc>https://wearandshare.online/blog/</loc>
       <priority>0.8</priority>
       <changefreq>weekly</changefreq>
     </url>
 
     <url>
-      <loc>https://wearandshare.online/blog/</loc>
+      <loc>https://wearandshare.online/blog/04-04-2018-the-opportunity/</loc>
       <priority>0.4</priority>
     </url>
 </urlset>
