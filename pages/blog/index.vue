@@ -6,7 +6,16 @@ export default {
     return {
       posts: [
         // Add new post here
-
+        {
+          link:     '/blog/24-04-2018-how-sharing-is-done',
+          img:      '/img/blog/24-04-2018-how-sharing-is-done/feature.jpg',
+          author:   'Dik M. Murovec',
+          day:      '24',
+          month:    'Apr',
+          fullDate: 'April 24th, 2018',
+          title:    'How Sharing is Done',
+          desc:     'Sharing between friends should be simple and intuitive. That is what we had in mind designing our application. Check out how our application can improve your current sharing experience.'
+        },
         {
           link:     '/blog/04-04-2018-the-opportunity',
           img:      '/img/blog/04-04-2018-the-opportunity/feature.jpg',

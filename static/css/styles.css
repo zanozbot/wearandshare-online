@@ -1909,6 +1909,10 @@ body {
     Blog Page
 ==================================================================*/
 
+.post-concept a {
+    color: #f16996;
+}
+
 .home-blog {
     background: url(/img/bg/wearables.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
