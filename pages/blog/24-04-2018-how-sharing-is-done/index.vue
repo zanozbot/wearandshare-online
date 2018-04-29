@@ -4,7 +4,7 @@
 export default {
   data: function() {
     return {
-      previousPost:   null,
+      previousPost:   '/blog/04-04-2018-the-opportunity',
       nextPost:       null,
       blogTitle:      'How Sharing is Done',
       day:            '24',

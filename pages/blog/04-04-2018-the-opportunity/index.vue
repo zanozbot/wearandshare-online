@@ -5,7 +5,7 @@ export default {
   data: function() {
     return {
       previousPost:   null,
-      nextPost:       null,
+      nextPost:       '/blog/24-04-2018-how-sharing-is-done',
       blogTitle:      'The Wear & Share Opportunity',
       day:            '06',
       month:          'apr',
