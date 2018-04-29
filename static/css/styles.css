@@ -910,13 +910,18 @@ body {
 ==================================================================*/
 
 .features {
-    background: -webkit-linear-gradient(-45deg, #f16a96, #f1836a);
-    background: -moz-linear-gradient(-45deg, #f16a96, #f1836a);
-    background: -o-linear-gradient(-45deg, #f16a96, #f1836a);
-    background: linear-gradient(-45deg, #f16a96, #f1836a);
-    padding: 100px 0;
-    color: white;
+    background: url(/img/bg/wearables.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
+    display: block;
+    color: white;
+}
+
+.features .overlay {
+    padding: 100px 0;
 }
 
 .features a:hover, .features a:focus  {
@@ -1102,7 +1107,6 @@ body {
     background-size: cover;
     position: relative;
     display: block;
-    
 }
 
 /*=================================================================
