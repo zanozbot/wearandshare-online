@@ -173,6 +173,14 @@ body {
     z-index: -1;
 }
 
+.primary {
+    color: #f1836a;
+}
+
+.secundary {
+    color: #f16a96;
+}
+
 .title-underline:after {
     content: "";
     display: block;
@@ -910,14 +918,10 @@ body {
 ==================================================================*/
 
 .features {
-    background: url(/img/bg/wearables.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     position: relative;
     display: block;
-    color: white;
+    padding: 250px 0;
+    color: black;
 }
 
 .features .overlay {
@@ -929,7 +933,7 @@ body {
     outline: none;
 }
 
-.features:after, .features02::after {
+.features02:after {
     content: '';
     display: block;
     position: absolute;
@@ -1115,7 +1119,7 @@ body {
 
 .faqs {
     padding: 100px 0;
-    background-color: #fff;
+    background-color: #f4f4f4;
 }
 
 .faqs .faqs-img {
@@ -1696,6 +1700,10 @@ body {
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    .faqs .faqs-img {
+        display: none;
+    }
+
     h2 {
         font-size: 30px;
     }
@@ -1844,6 +1852,11 @@ body {
     padding: 100px 0;
 }
 
+.features02 .gray-sm {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
 .features02 .content {
     display: flex;
     justify-content: center;
@@ -1881,6 +1894,11 @@ body {
     .features .feat-center img.img-responsive {
         display: inline-block;
     }
+
+    .features {
+        padding: 100px 0;
+    }
+
     .features02 .content {
         flex-direction: column;
         text-align: center;
@@ -1906,6 +1924,12 @@ body {
     .feat-text {
         text-align: center !important;
     }
+
+    .faqs .faqs-img img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 
@@ -2184,4 +2208,28 @@ blockquote:before {
 
 .post-journy .bttn-gradient i {
     margin: 0;
+}
+
+.famous-quotes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.famous-quotes i {
+    font-size: 3rem;
+}
+
+.quote-author {
+    text-transform: uppercase;
+}
+
+.quote-content-large {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #f16a96;
+}
+
+.quote-content-small {
+    font-size: 2rem;
 }
